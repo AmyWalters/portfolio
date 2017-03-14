@@ -1,0 +1,53 @@
+/*
+Error: Invalid CSS after "      margin-top": expected ";", was ": 10px;"
+        on line 85 of /Users/Amy/Desktop/willowinspired/styles/style.scss
+
+80:     }
+81:     p {
+82:       font-family: 'Raleway', sans-serif;
+83:       width: 100%;
+84:       padding-left: 5%
+85:       margin-top: 10px;
+86:       margin-bottom: 25px;
+87:     }
+88:   }
+89: 
+90: 
+
+Backtrace:
+/Users/Amy/Desktop/willowinspired/styles/style.scss:85
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1165:in `expected'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1101:in `expected'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1096:in `tok!'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:761:in `block in try_declaration'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1141:in `call'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1141:in `rethrow'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:766:in `try_declaration'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:696:in `declaration_or_ruleset'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:661:in `block_child'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:642:in `block'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:661:in `block_child'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:642:in `block'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:635:in `ruleset'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:660:in `block_child'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:117:in `stylesheet'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:42:in `parse'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:393:in `_to_tree'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `load'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"      margin-top\": expected \";\", was \": 10px;\"\A         on line 85 of /Users/Amy/Desktop/willowinspired/styles/style.scss\A \A 80:     }\A 81:     p {\A 82:       font-family: 'Raleway', sans-serif;\A 83:       width: 100%;\A 84:       padding-left: 5%\A 85:       margin-top: 10px;\A 86:       margin-bottom: 25px;\A 87:     }\A 88:   }\A 89: \A 90: "; }
