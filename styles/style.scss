@@ -5,7 +5,7 @@
 .wrapper {
   header {
   height: 300px;
-  background-image: url("../typing.jpeg");
+  background-image: url("../Sky.jpeg");
   background-size: cover;
   background-position: bottom;
 
@@ -59,6 +59,19 @@ h3 {
   margin-left: 5%;
 }
 
+h4 {
+  font-family: "WildYouth-Regular";
+  font-size: 30px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
 
 .container {
   max-height: 500px;
@@ -71,24 +84,32 @@ h3 {
     margin-right: 5%;
     width: 50%;
     }
-    h4 {
-      font-family: 'Raleway', sans-serif;
-      text-transform: uppercase;
-      width: 40%;
-      max-height: 200px;
-      background-color: e9e9e9;
+    .box-outer {
+    position: relative;
+    margin: 30px;
     }
-    p {
-      font-family: 'Raleway', sans-serif;
-      width: 100%;
-      padding-left: 5%
-      margin-top: 10px;
-      margin-bottom: 25px;
+    .box {
+    width: 320px;
+    height: 160px;
+    border: 1px solid black;
+    background-color: transparent;
+    }
+    .box-shadow {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: #e9e9e9;
+    width: 320px;
+    height: 160px;
+    z-index: -1;
     }
   }
 
-
-
+.aboutwrapper {
+  p{
+  margin: 5%;
+}
+}
 
 
 
