@@ -1,92 +1,53 @@
-@font-face {
-  font-family: "WildYouth-Regular";
-  src: url("WildYouth-Regular.otf") format("opentype"); }
-.wrapper header {
-  height: 300px;
-  background-image: url("../Sky.jpeg");
-  background-size: cover;
-  background-position: bottom; }
-  .wrapper header nav {
-    padding-top: 20px;
-    height: 30px;
-    width: 100%; }
-    .wrapper header nav ul {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-      text-align: center; }
-      .wrapper header nav ul li {
-        font-family: 'Raleway', sans-serif;
-        text-transform: uppercase;
-        color: black;
-        flex-grow: 1;
-        padding-left: 50px;
-        padding-right: 50px;
-        color: white;
-        text-shadow: 2px 2px 4px grey; }
+/*
+Error: Invalid CSS after "      margin-top": expected ";", was ": 10px;"
+        on line 85 of /Users/Amy/Desktop/willowinspired/styles/style.scss
 
-h1 {
-  font-family: "WildYouth-Regular";
-  font-size: 64px;
-  text-align: center;
-  padding-top: 85px;
-  color: white;
-  text-shadow: 2px 2px 4px grey; }
+80:     }
+81:     p {
+82:       font-family: 'Raleway', sans-serif;
+83:       width: 100%;
+84:       padding-left: 5%
+85:       margin-top: 10px;
+86:       margin-bottom: 25px;
+87:     }
+88:   }
+89: 
+90: 
 
-h2 {
-  font-family: "Raleway", sans-serif;
-  text-align: center;
-  padding-top: 30px;
-  letter-spacing: 0.5em;
-  text-shadow: 1px 1px 2px grey;
-  color: white; }
-
-h3 {
-  font-family: "Raleway", sans-serif;
-  padding: 30px;
-  text-transform: uppercase;
-  margin-left: 5%; }
-
-h4 {
-  font-family: "WildYouth-Regular";
-  font-size: 30px;
-  padding-top: 10px;
-  padding-left: 10px; }
-
-p {
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-  padding-top: 10px; }
-
-.container {
-  max-height: 500px;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center; }
-  .container img#typing {
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 50%; }
-  .container .box-outer {
-    position: relative;
-    margin: 30px; }
-  .container .box {
-    width: 320px;
-    height: 160px;
-    border: 1px solid black;
-    background-color: transparent; }
-  .container .box-shadow {
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    background-color: #e9e9e9;
-    width: 320px;
-    height: 160px;
-    z-index: -1; }
-
-#sectionwrapper2 {
-  width: 100%;
-  height: 400px; }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+/Users/Amy/Desktop/willowinspired/styles/style.scss:85
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1165:in `expected'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1101:in `expected'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1096:in `tok!'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:761:in `block in try_declaration'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1141:in `call'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1141:in `rethrow'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:766:in `try_declaration'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:696:in `declaration_or_ruleset'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:661:in `block_child'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:642:in `block'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:661:in `block_child'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:642:in `block'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:635:in `ruleset'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:660:in `block_child'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:117:in `stylesheet'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:42:in `parse'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:393:in `_to_tree'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `load'
+/Users/Amy/Downloads/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"      margin-top\": expected \";\", was \": 10px;\"\A         on line 85 of /Users/Amy/Desktop/willowinspired/styles/style.scss\A \A 80:     }\A 81:     p {\A 82:       font-family: 'Raleway', sans-serif;\A 83:       width: 100%;\A 84:       padding-left: 5%\A 85:       margin-top: 10px;\A 86:       margin-bottom: 25px;\A 87:     }\A 88:   }\A 89: \A 90: "; }
